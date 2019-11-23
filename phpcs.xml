@@ -2,7 +2,6 @@
 <ruleset>
     <arg name="basepath" value="."/>
     <arg name="extensions" value="php"/>
-    <arg name="parallel" value="6"/>
     <arg name="cache" value=".phpcs-cache"/>
     <arg name="colors"/>
 
@@ -10,4 +9,6 @@
     <arg value="nps"/>
 
     <file>./src</file>
+
+    <rule ref="PSR2" />
 </ruleset>

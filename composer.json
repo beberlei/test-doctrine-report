@@ -8,7 +8,9 @@
             "email": "kontakt@beberlei.de"
         }
     ],
-    "require": {},
+    "require": {
+        "squizlabs/php_codesniffer": "^3.5"
+    },
     "autoload": {
         "psr-4": {
             "Beberlei\\": "src/"
