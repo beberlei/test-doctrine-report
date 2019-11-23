@@ -5,5 +5,7 @@ jobs:
     name: Doctrine Quality Report
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout
+      uses: actions/checkout@v1
     - name: Doctrine Quality Report
       uses: doctrine/quality-checks-report-action@master
