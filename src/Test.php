@@ -2,6 +2,8 @@
 
 namespace Beberlei;
 
-class Test
-{
+class Test {
+    function foo() {
+            $indentionTooMuch = true;
+    }
 }
