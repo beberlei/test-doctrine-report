@@ -11,4 +11,7 @@ $evenMoreProblems = false;
     function bar()          {
 strlen("foo");
         }
+
+        function baz() {
+        }
 }
