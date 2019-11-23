@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Doctrine Quality Report
-      uses: doctrine/quality-checks-report-action
+      uses: doctrine/quality-checks-report-action@master
