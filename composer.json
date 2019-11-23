@@ -1,0 +1,17 @@
+{
+    "name": "beberlei/test-doctrine-report",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benjamin Eberlei",
+            "email": "kontakt@beberlei.de"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Beberlei\\": "src/"
+        }
+    }
+}

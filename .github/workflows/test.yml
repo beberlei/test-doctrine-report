@@ -1,0 +1,9 @@
+on: [push, pull_request]
+name: Test
+jobs:
+  doctrine-quality-report:
+    name: Doctrine Quality Report
+    runs-on: ubuntu-latest
+    steps:
+    - name: Doctrine Quality Report
+      uses: doctrine/quality-checks-report-action
