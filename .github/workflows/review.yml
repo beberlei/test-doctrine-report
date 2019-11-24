@@ -1,0 +1,16 @@
+on:
+    check_suite:
+        type: completed
+name: Check Suite
+jobs:
+  doctrine-quality-report:
+    name: Doctrine Quality Report
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+    - name: Doctrine Quality Report
+      uses: doctrine/quality-checks-report-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
