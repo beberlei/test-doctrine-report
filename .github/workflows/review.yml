@@ -1,6 +1,4 @@
-on:
-    check_suite:
-        type: completed
+on: [check_suite]
 name: Check Suite
 jobs:
   doctrine-quality-report:
