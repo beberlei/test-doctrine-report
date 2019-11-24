@@ -1,4 +1,4 @@
-on: [check_suite]
+on: [check_suite, check_run]
 name: Check Suite
 jobs:
   doctrine-quality-report:
