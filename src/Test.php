@@ -15,6 +15,6 @@ strlen("foo");
         function baz() {
         }
 
-    function boing() {
-}
+        function boing() {
+        }
 }
