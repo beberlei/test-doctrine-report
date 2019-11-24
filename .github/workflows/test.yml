@@ -1,4 +1,4 @@
-on: [push, pull_request]
+on: [pull_request]
 name: Test
 jobs:
   doctrine-quality-report:
@@ -9,3 +9,5 @@ jobs:
       uses: actions/checkout@v1
     - name: Doctrine Quality Report
       uses: doctrine/quality-checks-report-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
